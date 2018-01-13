@@ -1,0 +1,28 @@
+h1 {
+	text-align: right;
+	font-family: arial, sans-serif;
+}
+
+h4 {
+	text-align: right;
+	font-family: arial, sans-serif;
+}
+
+ .row div{
+      height: auto;
+      font-size: 30px;
+  }
+
+ .image {
+ 	height: 100%;
+ 	width: 100%;
+ }
+
+ h3 {
+ 	text-align: center;
+ }
+
+ img, embed,
+ object, video {
+ 	max-width: 100%;
+ }
