@@ -10,7 +10,7 @@ h4 {
 
  .row div{
       height: auto;
-      font-size: 30px;
+      font-size: 3vh;
   }
 
  .image {
@@ -26,3 +26,4 @@ h4 {
  object, video {
  	max-width: 100%;
  }
+
