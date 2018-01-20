@@ -2,6 +2,11 @@
 
 /* Compiled with some help from GitHub sources */
 
+body {
+	font-family: 'Lato', helvetica;
+	color: red;
+}
+
 h1 {
 	text-align: right;
 	font-family: 'Lato', sans-serif;
@@ -12,39 +17,101 @@ h4 {
 	font-family: arial, sans-serif;
 }
 
- .row div{
-      height: auto;
-      font-size: 3vh;
-  }
-
- .image {
- 	height: 100%;
- 	width: 100%;
- }
-
- h3 {
- 	text-align: center;
- }
- 
- img, embed,
- object, video {
- 	max-width: 100%;
- }
-
-@media screen and (min-width: 992px) {
-	.weblink {
-		font-size: 25px;
-	}
+/*Trying to set the line thickness and color*/
+hr {
+	border: 3px #7d97ad;
 }
 
+ .logo {
+      margin-top: 1em;
+ }
+
+ .img-fluid {
+ 	width: 100%;
+ 	height: 300px;
+ }
+
+ .project {
+ 	text-align: center;
+ 	font-weight: 400;
+}
+  
+
+@media screen and (min-width: 992px) {
+    .logo {
+        width: 10em;
+    }
+    .text {
+        font-weight: 700;
+        font-size: 30px
+    }
+    h4 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .caption {
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 40px;
+    }
+}
 @media screen and (max-width: 991px) {
-	.weblink {
-		font-size: 18px;
-	}
+    .logo {
+        width: 5.5em;
+    }
+    .text {
+        font-weight: 400;
+        font-size: 25px
+    }
+    
+    h4 {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .caption {
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+    }
+   
+    h3 {
+        font-weight: 400;
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-	.weblink {
-		font-size: 18px;
-	}
+    .logo {
+        width: 4em;
+    }
+    .text {
+        font-weight: 300;
+        font-size: 15px
+    }
+    h4 {
+        font-weight: 300;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .caption {
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 18px;
+    }
 }
+
